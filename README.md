@@ -30,18 +30,18 @@ Because this project is containerized, you do not need to worry about managing P
 ### 1. Clone the repository
 ```bash
 git clone [https://github.com/YOUR-USERNAME/federal-procurement-ai.git](https://github.com/YOUR-USERNAME/federal-procurement-ai.git)
-cd federal-procurement-ai
+cd federal-procurement-ai```
 ### 2. Initialize the Database
 ### Before running the app, generate the DuckDB database from the raw CSV data:
 
 ```Bash
-python init_db.py
+python init_db.py```
 ### 3. Build the Docker Image
 ```Bash
-docker build -t gov-procure-app .
+docker build -t gov-procure-app .```
 ### 4. Run the Container
 ```Bash
-docker run -p 8501:8501 gov-procure-app
+docker run -p 8501:8501 gov-procure-app```
 ### 5. Access the Dashboard
 Open your web browser and navigate to:
  http://localhost:8501
