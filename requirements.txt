@@ -1,6 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
 requests
 pandas
 sentence-transformers
 scikit-learn
 streamlit
 plotly
+spacy
