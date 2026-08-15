@@ -9,10 +9,10 @@ The backend is powered by **DuckDB** for lightning-fast analytical queries, and 
 
 ---
 
-## ✨ Key Features
+##  Key Features
 * ** AI Semantic Search:** Find contracts using natural language queries via `sentence-transformers` (Cosine Similarity).
-* **🏷️ Named Entity Recognition (NER):** Automatically extracts and tags Organizations, Locations, and Technologies from unstructured contract text using `spaCy`.
-* **⚡ OLAP Database:** Utilizes `DuckDB` to run high-performance SQL queries directly against the data, bypassing the memory limits of Pandas.
+* ** Named Entity Recognition (NER):** Automatically extracts and tags Organizations, Locations, and Technologies from unstructured contract text using `spaCy`.
+* ** OLAP Database:** Utilizes `DuckDB` to run high-performance SQL queries directly against the data, bypassing the memory limits of Pandas.
 * ** Interactive Dashboards:** Dynamic KPI tracking and Plotly visualizations built with `Streamlit`.
 
 ---
