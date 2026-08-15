@@ -6,3 +6,4 @@ venv/
 .env
 data/raw_contracts.csv
 data/contract_embeddings.npy
+data/procurement.db
